@@ -1,5 +1,5 @@
-$(document).on('ready',
-    function() {
+(function() {
+    function startScrambler() {
         'use strict';
 
         //Determining scrambling parameters from received HTML
@@ -127,4 +127,10 @@ $(document).on('ready',
             scrambleMe: scrambleMe,
             unscrambleMe: unscrambleMe
         };
-    });
+    }
+
+    if (document.readyState === 'complete') {
+        startScrambler();
+    } else $(document).on('ready', startScrambler);
+
+})();
