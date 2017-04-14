@@ -2,17 +2,17 @@
 
 The `scramble.js` injects the scrambler object to the global scope in order to scramble and unscramble any text. The script also inserts components in the DOM to allow scrambling/unscrambling directly in the page.
 
-####Functionality
+#### Functionality
 
 - Determines scrambling parameters from original message and incorporates these parameters in next scramblings.
 - Adds components to the DOM for scrambling/unscrambling directly from the page.
 - Injects the scrambler object to the global scope for scrambling/unscrambling directly from the console.
 
-####Frameworks
+#### Frameworks
 
 - JQuery
 
-####How to use
+#### How to use
 
 - Include in your HTML header:
 ```
