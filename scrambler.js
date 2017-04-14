@@ -61,7 +61,7 @@ $(document).on('ready',
         $('#unscramble-button').on('click', function() {
             $unscrambleButton.prop('disabled', true);
 
-            //Unscrambelling
+            //Unscrambeling
             $resultContianer.text(unscrambleMe($body));
 
             $textArea.val(unscrambledText);
@@ -77,7 +77,7 @@ $(document).on('ready',
             if ($textArea.val()) {
                 $scrambleButton.prop('disabled', true);
 
-                //Scrambelling
+                //Scrambeling
                 $resultContianer.html(scrambleMe($textArea.val()));
 
                 $textArea.hide();
