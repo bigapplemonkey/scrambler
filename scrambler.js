@@ -91,7 +91,7 @@ $(document).on('ready',
 
         /**
          * Unscramble the text inside the DOM elements
-         * @param {JQuery Object} $htmlToBeUnsrambled
+         * @param {JQuery Selector} $htmlToBeUnsrambled
          * @return {String} unscrambledText
          */
         function unscrambleMe($htmlToBeUnsrambled) {
